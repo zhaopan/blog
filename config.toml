@@ -1,0 +1,138 @@
+baseURL = 'https://www.fkwar.com/blog'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "zhaopan"
+MetaDataFormat =  "yaml"
+CanonifyUrls =  true
+BuildDrafts =  false
+PaginatePath =  "p"
+Paginate = 5
+DisablePathToLower =  false
+HasCJKLanguage = true
+pygmentsUseClasses=true
+UglyUrls = false
+disqusShortname = "zhaopan"
+[permalinks]
+  posts = "/:slug"
+[markup.highlight]
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  lineAnchors = ""
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
+  noClasses = true
+  style = "vs"
+  tabWidth = 4
+
+# For chinese characters (not important for me):
+# [markup]
+#   defaultMarkdownHandler = "blackfriday"
+# [markup.blackfriday]
+#   extensions = ["joinLines"]
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[Params]
+  Introduce = "Stop Talking. Just Coding."
+  Description = "Science | Art | Blog"
+  Keywords =  "zhaopan,Blog,Science,Art,Tech,Life,Notes,Reading,Think,Share"
+  Subtitle = "Science and art, life in between."
+  Imglogo = "/images/logo.png"
+  AuthorImg = "/images/logo.png"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006 年"
+  MonthFormat = "01-02"
+  GoogleAnalytics = "UA-80889616-2"
+  Fancybox = false
+
+[Author]
+  Name = "zhaopan"
+
+[[Menu.Main]]
+  Name = "Home"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Menu.Main]]
+  Name = "Ideas"
+  Pre = "lightbulb-o"
+  URL = "/ideas/"
+  Weight = 2
+[[Menu.Main]]
+  Name = "Archives"
+  Pre = "archive"
+  URL = "/posts/"
+  Weight = 3
+[[Menu.Main]]
+  Name = "Tags"
+  Pre = "tag"
+  URL = "/tags/"
+  Weight = 4
+[[Menu.Main]]
+  Name = "Bio"
+  Pre = "user"
+  URL = "/about/"
+  Weight = 5
+
+[[Params.Socials]]
+  Name = "Homepage"
+  Icon = "home"
+  URL = "https://www.fkwar.com/blog"
+
+[[Params.Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://www.fkwar.com/s/github"
+
+[[Params.Socials]]
+  Name = "Email"
+  Icon = "envelope"
+  URL = "https://www.fkwar.com/s/email"
+
+[[Params.Socials]]
+  Name = "YouTube"
+  Icon = "youtube"
+  URL = "https://www.fkwar.com/s/youtube"
+[[Params.Socials]]
+  Name = "Twitter"
+  Icon = "twitter"
+  URL = "https://www.fkwar.com/s/twitter"
+
+[[Params.Socials]]
+  Name = "Zhihu"
+  Icon = "book"
+  URL = "https://www.fkwar.com/s/zhihu"
+
+[[Params.Links]]
+  Name = "Frimin"
+  Icon = "users"
+  URL = "https://www.frimin.com/"
+[[Params.Links]]
+  Name = "ZZZero"
+  Icon = "user-secret"
+  URL = "https://www.zz-zero.com/"
+[[Params.Links]]
+  Name = "march1993"
+  Icon = "user-md"
+  URL = "https://march1993.com/en/"
+[[Params.Links]]
+  Name = "qcrao"
+  Icon = "tree"
+  URL = "https://qcrao.com"
+[[Params.Links]]
+  Name = "maiyang"
+  Icon = "coffee"
+  URL = "https://maiyang.me"
+[[Params.Links]]
+  Name = "Xargin"
+  Icon = "tasks"
+  URL = "https://xargin.com/"
+[[Params.Links]]
+  Name = "Muniao"
+  Icon = "tree"
+  URL = "https://www.qtmuniao.com/"
+# https://fontawesome.com/v4.7.0/icons/

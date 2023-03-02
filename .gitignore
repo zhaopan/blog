@@ -13,3 +13,17 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# macOS
+.DS_Store
+
+# web
+resources/
+public/
+nginx/
+logs/
+init.sh
+Makefile
+compose.yml
+.hugo_build.lock
+.env
