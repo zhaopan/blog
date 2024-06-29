@@ -1,4 +1,4 @@
-baseURL = 'https://www.fkwar.com/blog'
+baseURL = 'https://fk1941.com/blog'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "zhaopan"
@@ -81,31 +81,31 @@ disqusShortname = "zhaopan"
 [[Params.Socials]]
   Name = "Homepage"
   Icon = "home"
-  URL = "https://www.fkwar.com/blog"
+  URL = "https://fk1941.com/blog"
 
 [[Params.Socials]]
   Name = "GitHub"
   Icon = "github"
-  URL = "https://www.fkwar.com/s/github"
+  URL = "https://fk1941.com/s/github"
 
 [[Params.Socials]]
   Name = "Email"
   Icon = "envelope"
-  URL = "https://www.fkwar.com/s/email"
+  URL = "https://fk1941.com/s/email"
 
 [[Params.Socials]]
   Name = "YouTube"
   Icon = "youtube"
-  URL = "https://www.fkwar.com/s/youtube"
+  URL = "https://fk1941.com/s/youtube"
 [[Params.Socials]]
   Name = "Twitter"
   Icon = "twitter"
-  URL = "https://www.fkwar.com/s/twitter"
+  URL = "https://fk1941.com/s/twitter"
 
 [[Params.Socials]]
   Name = "Zhihu"
   Icon = "book"
-  URL = "https://www.fkwar.com/s/zhihu"
+  URL = "https://fk1941.com/s/zhihu"
 
 [[Params.Links]]
   Name = "Frimin"
