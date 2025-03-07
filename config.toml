@@ -1,17 +1,17 @@
 baseURL = 'https://fk1941.com/blog'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'zhaopan'
 theme = "zhaopan"
 MetaDataFormat =  "yaml"
 CanonifyUrls =  true
 BuildDrafts =  false
-PaginatePath =  "p"
-Paginate = 5
+pagination.path = "p"
+pagination.pagerSize = 5
 DisablePathToLower =  false
 HasCJKLanguage = true
 pygmentsUseClasses=true
 UglyUrls = false
-disqusShortname = "zhaopan"
+DisqusShortname = "zhaopan"
 [permalinks]
   posts = "/:slug"
 [markup.highlight]
@@ -48,9 +48,7 @@ disqusShortname = "zhaopan"
   MonthFormat = "01-02"
   GoogleAnalytics = "UA-80889616-2"
   Fancybox = false
-
-[Author]
-  Name = "zhaopan"
+  Author="zhaopan"
 
 [[Menu.Main]]
   Name = "Home"
