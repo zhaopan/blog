@@ -10,24 +10,6 @@ tags:
 title: kubectl
 ---
 
-# kubectl
-
-- [kubectl](#kubectl)
-  - [kubectl-cli](#kubectl-cli)
-  - [kubernetes-install](#kubernetes-install)
-    - [kubernetes-cli](#kubernetes-cli)
-    - [1.查看版本号](#1查看版本号)
-    - [2.设置主机名称(非必须)](#2设置主机名称非必须)
-    - [3.准备环境](#3准备环境)
-    - [4.所有节点安琥藏Docker/kubeadm/kubelet](#4所有节点安琥藏dockerkubeadmkubelet)
-    - [5.设置yum源(Docker-18.6 K8S-1.14.0)](#5设置yum源docker-186-k8s-1140)
-    - [6.安装Docker(最好指定版本号)](#6安装docker最好指定版本号)
-    - [7.安装kubeadm，kubelet和kubectl(指定版本号)](#7安装kubeadmkubelet和kubectl指定版本号)
-    - [8.部署Kubernetes Master](#8部署kubernetes-master)
-    - [9.安装网络插件](#9安装网络插件)
-    - [10.部署Dashboard](#10部署dashboard)
-    - [11 Pod调度到Master节点](#11-pod调度到master节点)
-
 ## kubectl-cli
 
 ```bash

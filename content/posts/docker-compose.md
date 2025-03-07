@@ -10,8 +10,6 @@ tags:
 title: docker-compose
 ---
 
-# docker-compose
-
 compose允许用户通过一个docker-compose.yml模板文件（yaml 格式）来定义一组相关联的应用容器为一个项目（project）。compose模板文件是一个定义服务、网络和卷的yaml文件。compose模板文件默认路径是当前目录下的docker-compose.yml，可以使用.yml或.yaml作为文件扩展名。docker-compose标准模板文件应该包含version、services、networks 三大部分，最关键的是services和networks两个部分。
 
 eg:

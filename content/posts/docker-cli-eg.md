@@ -10,19 +10,6 @@ tags:
 title: docker-cli-eg
 ---
 
-# docker-cli-eg
-
-- [docker-cli-eg](#docker-cli-eg)
-  - [search](#search)
-  - [build](#build)
-  - [run | restart | stop | update | rm | rmi](#run--restart--stop--update--rm--rmi)
-  - [rm](#rm)
-  - [rmi](#rmi)
-  - [network](#network)
-  - [exec](#exec)
-  - [pipe](#pipe)
-  - [reference](#reference)
-
 ## search
 
 ```bash

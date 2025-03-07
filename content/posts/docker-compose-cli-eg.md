@@ -10,15 +10,6 @@ tags:
 title: docker-compose-cli-eg
 ---
 
-# docker-compose-cli-eg
-
-- [docker-compose-cli-eg](#docker-compose-cli-eg)
-  - [ip/network](#ipnetwork)
-  - [docker-compose.yml + Dockerfile + env](#docker-composeyml--dockerfile--env)
-  - [build | start | restart | stop | down | rebuild](#build--start--restart--stop--down--rebuild)
-  - [cli-list](#cli-list)
-  - [reference](#reference)
-
 .env
 
 ```bash

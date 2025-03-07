@@ -10,26 +10,6 @@ tags:
 title: docker
 ---
 
-# docker
-
-- [docker](#docker)
-  - [install docker](#install-docker)
-  - [install docker-compose](#install-docker-compose)
-  - [compose file format compatibility matrix](#compose-file-format-compatibility-matrix)
-  - [nginx](#nginx)
-  - [mysql](#mysql)
-  - [gogs](#gogs)
-  - [php-fpm](#php-fpm)
-  - [postgres](#postgres)
-  - [shadowsocks](#shadowsocks)
-  - [redis](#redis)
-  - [pure-ftp](#pure-ftp)
-  - [rabbitmq](#rabbitmq)
-  - [docker logs](#docker-logs)
-  - [docker cleanup](#docker-cleanup)
-  - [docker daemon](#docker-daemon)
-  - [dotnet core 内存设置](#dotnet-core-内存设置)
-
 ![docker](https://fkwar.oss-cn-beijing.aliyuncs.com/77C5FC6E-21CF-46F7-96B2-A18F254D295A.png)
 
 ![docker](https://fkwar.oss-cn-beijing.aliyuncs.com/C72B0911-6881-438B-9925-570A00FE020B.png)
